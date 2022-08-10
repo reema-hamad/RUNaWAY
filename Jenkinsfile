@@ -3,7 +3,7 @@ pipeline {
 	agent any
 
 	environment {
-		DOCKERHUB_CREDENTIALS=credentials('Reema/dockerhub-token')
+		DOCKERHUB_CREDENTIALS=credentials('Reema-dockerhub-token')
 		AWS_ACCESS_KEY_ID     = credentials('Reema-aws-secret-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('Reema-aws-secret-access-key')
 		ARTIFACT_NAME = 'Dockerrun.aws.json'
