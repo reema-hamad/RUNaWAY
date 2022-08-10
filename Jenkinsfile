@@ -18,7 +18,7 @@ pipeline {
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t rmrmhm23/RunWay:latest .'
+				sh 'docker build -t rmrmhm23/RunWay:latest'
 			}
 		}
 
