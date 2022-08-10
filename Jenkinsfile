@@ -3,11 +3,11 @@ pipeline {
 	agent any
 
 	environment {
-		DOCKERHUB_CREDENTIALS=credentials('rmrmhm23-dockerhub')
+		DOCKERHUB_CREDENTIALS=credentials('Reema/dockerhub-token')
 		AWS_ACCESS_KEY_ID     = credentials('Reema-aws-secret-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('Reema-aws-secret-access-key')
 		ARTIFACT_NAME = 'Dockerrun.aws.json'
-		AWS_S3_BUCKET = 'Reema-packet'
+		AWS_S3_BUCKET = 'r-belt2-artifacts-123456'
 		AWS_EB_APP_NAME = 'online-runway-cicd'
         AWS_EB_ENVIRONMENT_NAME = 'Onlinerunwaycicd-env'
         AWS_EB_APP_VERSION = "${BUILD_ID}"
