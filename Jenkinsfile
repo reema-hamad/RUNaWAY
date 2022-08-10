@@ -32,7 +32,7 @@ pipeline {
 		stage('Push') {
 
 			steps {
-				sh 'docker push rmrmhm23/runway:latest .'
+				sh 'docker push rmrmhm23/runway:latest '
 			}
 		}
 
