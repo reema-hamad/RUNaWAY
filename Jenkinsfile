@@ -18,7 +18,7 @@ pipeline {
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t rmrmhm23/sample-node-app1:latest .'
+				sh 'docker build -t rmrmhm23/runway:latest .'
 			}
 		}
 
@@ -32,7 +32,7 @@ pipeline {
 		stage('Push') {
 
 			steps {
-				sh 'docker push rmrmhm23/sample-node-app1:latest'
+				sh 'docker push rmrmhm23/runway:latest'
 			}
 		}
 
