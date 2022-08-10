@@ -7,9 +7,9 @@ pipeline {
 		AWS_ACCESS_KEY_ID     = credentials('Reema-aws-secret-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('Reema-aws-secret-access-key')
 		ARTIFACT_NAME = 'Dockerrun.aws.json'
-		AWS_S3_BUCKET = 'reema-belt2-artifacts-123456'
+		AWS_S3_BUCKET = 'Reemabelt2artifacts1234561'
 		AWS_EB_APP_NAME = 'Reema1-Belt2-EB1-123456'
-        AWS_EB_ENVIRONMENT_NAME = 'Reema1belt2eb1123456-env'
+        AWS_EB_ENVIRONMENT_NAME = 'Reemabelt2artifacts1234561-env'
         AWS_EB_APP_VERSION = "${BUILD_ID}"
 	}
 
