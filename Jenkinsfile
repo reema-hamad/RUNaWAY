@@ -7,7 +7,7 @@ pipeline {
 		AWS_ACCESS_KEY_ID     = credentials('Reema-aws-secret-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('Reema-aws-secret-access-key')
 		ARTIFACT_NAME = 'Dockerrun.aws.json'
-		AWS_S3_BUCKET = 'r-belt2-artifacts-123456'
+		AWS_S3_BUCKET = 'reema-belt2-artifacts-123456'
 		AWS_EB_APP_NAME = 'online-runway-cicd'
         AWS_EB_ENVIRONMENT_NAME = 'Onlinerunwaycicd-env'
         AWS_EB_APP_VERSION = "${BUILD_ID}"
@@ -18,7 +18,7 @@ pipeline {
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t rmrmhm23/RunWay:latest'
+				sh 'docker build -t rmrmhm23/RunWay:latest .'
 			}
 		}
 
