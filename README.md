@@ -32,4 +32,4 @@ Why don't you learn DevOps and do yourself.
 
 #### Contibutors
 
-- Chandradeo Arya
+- Reema Queen

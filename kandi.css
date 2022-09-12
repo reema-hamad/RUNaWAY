@@ -34,7 +34,7 @@ li {
 a {
   text-decoration: none;
   color: inherit;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 rgb(128, 41, 41), 1px -1px 0 rgb(179, 113, 113), -1px 1px 0 rgb(127, 45, 45), 1px 1px 0 rgb(197, 62, 62);
 }
 
 .wrapper {
